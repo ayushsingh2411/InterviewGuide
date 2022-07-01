@@ -1,0 +1,30 @@
+.landing{
+    min-height: 20vh;
+    min-width: 20vh;
+    display: flex;
+    align-items: left;
+    background-image: url("../../landingPage.jpg");
+    background-position: left;
+    background-size: cover;
+}
+.heading{
+    color: #268daa;
+    text-align: center
+}
+
+.im{
+    height: 450px;
+    width: 700px;
+}
+
+.background {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background: #f0f2f5; */
+    background: #001233;
+    font-family: Arial, sans-serif;
+    /* background-image: url("./kana.jpg"); */
+}

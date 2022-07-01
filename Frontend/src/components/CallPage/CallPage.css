@@ -1,0 +1,40 @@
+.containe {
+    position: fixed;
+    width: 69%;
+    height: 90%;
+    background: linear-gradient(45deg, #03A9F4, #4CAF50);
+}
+
+.color-picker-container {
+    text-align: centre;
+    display: inline;
+    color: white;
+}
+
+.brushsize-container {
+    display: inline;
+    color: white;
+    margin-left: 12px;
+}
+
+.tools-section {
+    text-align: center;
+}
+
+.board-container {
+    width: 99%;
+    height: 92%;
+    margin: auto;
+    margin-top: 1%;
+    background: white;
+}
+
+.video-grid {
+    display: grid;
+      grid-template-columns: repeat(auto-fill, 450px);
+      grid-auto-rows: 260px;
+      background-color: rgb(170, 155, 155);
+      position: absolute;
+      top: 65px;
+      right: 0;
+  }
